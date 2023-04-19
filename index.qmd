@@ -1,0 +1,48 @@
+---
+title: "Project title"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Data
+
+What is the dataset about? Why did you choose it?
+
+## Packages
+
+Which packages will you be using and for what purpose?
+
+```{r}
+#| label: load-packages
+#| message: false
+
+library(tidyverse)
+# add other packages, if any
+```
+
+## Explorations
+
+1-2 sentence summary of explorations.
+
+```{r}
+# label: load-data
+# message: false
+
+# add code to read data
+```
+
+### Exploration 1 title
+
+Update title (try to keep it short) and add narrative and code...
+
+### Exploration 2 title
+
+Update title (try to keep it short) and add narrative and code...
+
+(Add more explorations as needed, or take this out.)
+
+## Discussion
+
+Summary of findings on the data and what you learned in the process about the data context as well as about using R.
