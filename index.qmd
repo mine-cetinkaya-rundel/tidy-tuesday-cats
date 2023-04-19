@@ -1,5 +1,6 @@
 ---
-title: "Project title"
+title: "Exploring cats and their habits"
+author: "Mine Çetinkaya-Rundel"
 format: 
   html:
     toc: true
@@ -8,36 +9,38 @@ editor: visual
 
 ## Data
 
-What is the dataset about? Why did you choose it?
+Because I'm a cat lover...
 
 ## Packages
 
-Which packages will you be using and for what purpose?
+In this analysis I'll use the **tidyverse** package for data wrangling and visualization, the **scales** package for better axis labels, and the **janitor** package for cleaning variable names.
 
 ```{r}
 #| label: load-packages
 #| message: false
 
 library(tidyverse)
+library(scales)
+library(janitor)
 # add other packages, if any
 ```
 
 ## Explorations
 
-1-2 sentence summary of explorations.
+In this project I'll be exploring why some cats like catnip as well as why some don't like being petted.
 
 ```{r}
 # label: load-data
 # message: false
 
-# add code to read data
+#cats <- read_csv("some tidytuesday URL")
 ```
 
-### Exploration 1 title
+### Why do cats like catnip?
 
 Update title (try to keep it short) and add narrative and code...
 
-### Exploration 2 title
+### Why don't some cats like being petted?
 
 Update title (try to keep it short) and add narrative and code...
 
